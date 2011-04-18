@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.aric.com/FlowSchema" xmlns:flw="http://www.aric.com/FlowSchema"
+	elementFormDefault="qualified">
+
+
+    <xsd:element name="Flow">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element ref="flw:Node" maxOccurs="unbounded"
+    				minOccurs="0">
+    			</xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="Node">
+    	<xsd:complexType>
+    		<xsd:attribute name="id" type="xsd:string"></xsd:attribute>
+    	</xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flw:flow xmlns:flw="http://www.aric.com/FlowSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.aric.com/FlowSchema FlowSchema.xsd ">
+	<flw:node nodeId="rootNode">
+		<flw:filter>
+			<flw:statementString>sdasdasdasd</flw:statementString>
+		</flw:filter>
+		<flw:eof>true</flw:eof>
+		<flw:children-ref>flw:children-ref</flw:children-ref>
+	</flw:node>
+	<flw:node nodeId="rootNode">
+		<flw:filter>
+			<flw:statementString>sdasdasd</flw:statementString>
+		</flw:filter>
+		<flw:eof>true</flw:eof>
+		<flw:children-ref>flw:children-ref</flw:children-ref>
+	</flw:node>
+</flw:flow>
